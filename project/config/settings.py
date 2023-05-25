@@ -52,6 +52,7 @@ INSTALLED_APPS = [
 # Mis apps
 INSTALLED_APPS += {
     'home',
+    'hospital',
 }
 
 MIDDLEWARE = [
