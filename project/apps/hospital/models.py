@@ -1,8 +1,8 @@
 from django.db import models
 
 class Paciente(models.Model):
-    nombre = models.CharField(max_length=50)
-    apellido = models.CharField(max_length=50)
+    nombre = models.CharField(max_length=100)
+    apellido = models.CharField(max_length=100)
     fecha_de_nacimiento = models.DateField()
 
     def __str__(self):

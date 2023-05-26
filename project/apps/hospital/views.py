@@ -2,7 +2,7 @@ from django.shortcuts import render, redirect
 from .models import Paciente, Medico, Turno, Receta
 from .forms import PacienteForm, MedicoForm, TurnoForm, RecetaForm
 
-# Index, muestra datos guardados en la base de datos
+# Mostrar datos guardados en la base de datos
 def index(request):
     """ Muestra la lista de pacientes, medicos, turnos y recetas"""
     pacientes = Paciente.objects.all()
