@@ -4,7 +4,6 @@
 
 Es un proyecto Django de ejemplo que muestra cómo crear una aplicación web básica. Aplicando el concepto de herencia de HTML y formularios para insertar datos en todas las clases de models.
 
----
 ## Instalación y ejecución
 
 Sigue estos pasos para instalar el proyecto en tu máquina local:
@@ -23,14 +22,4 @@ Instale las dependencias del proyecto usando el comando `pip install -r requirem
 
 - Si quiere detener el servidor, simplemente presione `CTRL + C` en la consola donde está ejecutándose.
 
----
-## Funcionalidades
-
-Este proyecto Django con patrón MVT consta de dos aplicaciones: home y hospital.
-
-### Home
-- La aplicación home muestra la página de inicio del proyecto y contiene el archivo HTML base y otros componentes HTML que son heredados por la aplicación hospital.
-
-### Hospital
-- La aplicación hospital tiene 4 clases en su modelo y permite al usuario interactuar con la base de datos. En la página principal de la aplicación se muestra un menú que lleva a los distintos formularios para crear datos en la base de datos. También se muestra una lista de los datos ya cargados en la base de datos.
 
